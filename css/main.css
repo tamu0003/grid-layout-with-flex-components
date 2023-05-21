@@ -25,3 +25,25 @@ body {
   .icon {
     font-size: 4rem;
   }
+
+  /* styling the emoji cards with grid */
+  .emojis{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .emoji{
+    margin: 5px;
+  }
+
+  /* styling the contents with flexbox */
+.emoji{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.emoji .icon{
+  order: -1;
+  text-align: center;
+}
