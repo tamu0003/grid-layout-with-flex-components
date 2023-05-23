@@ -47,3 +47,7 @@ body {
   order: -1;
   text-align: center;
 }
+
+.emoji p{
+  flex-grow: 1;
+}
